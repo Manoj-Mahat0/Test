@@ -10,9 +10,9 @@ nav_links = ["Features", "Pricing", "Contact"]
 # Create a sidebar for navigation
 selected_page = st.sidebar.radio("Navigation", nav_links)
 
-image1 = Image.open('C:/Users/manoj/OneDrive/Desktop/Test/Blue Apple.jpg')
-image2 = Image.open('C:/Users/manoj/OneDrive/Desktop/Test/Green Apple.jpg')
-image3 = Image.open('C:/Users/manoj/OneDrive/Desktop/Test/Red Apple.jpg')
+image1 = Image.open('Blue Apple.jpg')
+image2 = Image.open('Green Apple.jpg')
+image3 = Image.open('Red Apple.jpg')
 
 # Define the content for each section
 if selected_page == "Features":
